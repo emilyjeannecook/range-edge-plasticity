@@ -3,9 +3,10 @@ Scripts from: The evolution of plasticity in drought-related traits in central a
 
 Abstract: Phenotypic plasticity can influence population persistence, range dynamics, and evolutionary potential in heterogeneous landscapes. If adaptive, plasticity may buffer populations against environmental variability, climate change, and extreme events. Yet, few studies have examined how plasticity and its evolution vary across species’ ranges, even though edge populations are often most vulnerable to novel conditions. The Climate Variability Hypothesis postulates that genotypes that exhibit greater phenotypic plasticity should tolerate a greater range of environmental variability. However, field tests of this hypothesis across species’ ranges remain rare. Using scarlet monkeyflower (Mimulus cardinalis), we combined a resurrection approach with common gardens to test whether (1) central and edge populations differ in plasticity in drought-associated traits, (2) there are evolutionary shifts in plasticity following an extreme drought, and (3) plasticity was adaptive. We measured plasticity in first flower date, specific leaf area, and leaf dry matter content across two leading-edge, two range-center, and two trailing-edge populations, comparing pre-drought ancestors and post-drought descendants grown in three gardens spanning the latitudinal range. We found significant plasticity in all traits, and plasticity in first flower date was greatest in trailing-edge populations that have experienced greater inter-annual variation in precipitation. Evolutionary changes in plasticity occurred in some populations but did not consistently increase fitness. The adaptive value of plasticity was trait specific. These results show that plasticity is shaped by both spatial and temporal environmental variation and highlight the need to examine trait- and population-level responses to understand selection on plasticity at range edges.
 
-1. Figure 1: map, winter precipitation means, CV of winter precipitation
-2. Calculating phenotypic plasticity
-3. Q1 and Q2: brms and supplemental figures S1-6
-4. Figure 2: Variation in the magnitude of plasticity across populations and cohorts
-5. Q3: Adaptive plasticity (Figure 3), selection analyses, model selection (Table S2), selection coefficients (Table S3), and supplemental figures S7-9
-6. Table S1: Number of families and individuals in each population and cohort for each trait.  
+Code is broken up by the following scripts:
+**1_Figure1_mapCV.R:** Visualize Figure 1, including map, winter precipitation means, CV of winter precipitation
+**2_calculate_plasticity.R:** Calculating phenotypic plasticity
+**3_Q1_Q2_brms_FiguresS1-S6.R:** Analyses for Q1 and Q2 (estimate population and cohort differences with brms) and supplemental figures S1-6
+**4_Figure2.R:** Visualize Figure 2, variation in the magnitude of plasticity across populations and cohorts
+**5_Q3_selection_analyses_Figure3_TableS2S3.R:** Adaptive plasticity (Figure 3), selection analyses, model selection (Table S2), selection coefficients (Table S3), and supplemental figures S7-9
+**6_Table S1.R:** Number of families and individuals in each population and cohort for each trait.  
